@@ -36,9 +36,9 @@ input_data = pd.DataFrame([[
  Troponin
 ]], columns=model.feature_names_in_)
 
-if st.button("Result"):
+if st.button("Result🟰"):
   RESULT=model.predict(input_data)
   if RESULT =="negative":
-    st.write("NEGETIVE")
+    st.write("📉NEGETIVE")
   else:
-    st.write("POSITIVE")
+    st.write("📈POSITIVE")
