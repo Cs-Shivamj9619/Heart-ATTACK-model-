@@ -17,7 +17,7 @@ st.title("Heart attack model💓💘")
 
 Age = st.number_input("Age")
 Gender= st.number_input("Gender(0-FEMALE,1-MALE)",min_value=0,max_value=1)
-Heart_Rate= st.number_input("Heart_Rate")
+Heart_Rate= st.number_input("Heart_Rate",min_value=0,max_val=220)
 Systolic_Blood_Pressure= st.number_input("Systolic_Blood_Pressure")
 Diastolic_Blood_Pressure= st.number_input("Diastolic_Blood_Pressure")
 Blood_Sugar= st.number_input("Blood_Sugar")
