@@ -11,7 +11,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model =joblib.load("dtc_model.pkl")
+model =joblib.load("heart_dtc_model.pkl")
 
 st.title("Heart attack model💓💘")
 
