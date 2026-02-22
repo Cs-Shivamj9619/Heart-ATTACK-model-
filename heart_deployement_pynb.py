@@ -16,7 +16,7 @@ model =joblib.load("heart_dtc_model.pkl")
 st.title("Heart attack model💓💘")
 
 Age = st.number_input("Age")
-Gender= st.number_input("Gender",min_value=0,max_value=1)
+Gender= st.number_input("Gender(0-FEMALE,1-MALE)",min_value=0,max_value=1)
 Heart_Rate= st.number_input("Heart_Rate")
 Systolic_Blood_Pressure= st.number_input("Systolic_Blood_Pressure")
 Diastolic_Blood_Pressure= st.number_input("Diastolic_Blood_Pressure")
