@@ -32,7 +32,7 @@ input_data = pd.DataFrame([[
  Systolic_Blood_Pressure,
  Diastolic_Blood_Pressure,
  Blood_Sugar,
- CK-MB,
+ CK_MB,
  Troponin
 ]], columns=model.feature_names_in_)
 
